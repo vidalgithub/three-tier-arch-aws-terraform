@@ -1,4 +1,4 @@
-terraform {
+/* terraform {
   backend "s3" {
     bucket         = "kemgou-ngoumnai-three-tier-terraform-backend"
     encrypt        = true
@@ -6,4 +6,5 @@ terraform {
     region         = "us-east-1"
     dynamodb_table = "kemgou-ngoumnai-three-tier-terraform-backend"
   }
-}
+} */
+
