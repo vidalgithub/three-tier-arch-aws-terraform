@@ -1,9 +1,9 @@
 terraform {
   backend "s3" {
-    bucket         = "ajit-inamdar-tech-terraform-backend"
+    bucket         = "kemgou-ngoumnai-three-tier-terraform-backend"
     encrypt        = true
     key            = "terraform.tfstate"
     region         = "us-east-1"
-    dynamodb_table = "ajit-inamdar-tech-terraform-backend"
+    dynamodb_table = "kemgou-ngoumnai-three-tier-terraform-backend"
   }
 }
